@@ -31,7 +31,6 @@ export default async function Page() {
 
   return (
     <div>
-      Hello
       <SliceZone slices={page.data.slices} components={components} />
     </div>
   );
